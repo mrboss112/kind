@@ -36,7 +36,7 @@ try:
     print(str(token))
 except Exception as e:
     noobcoder = LINE()
-noobcoder = LINE(token,appName="IOSIPAD\t11.2.5\tiPhone X\t11.2.5")
+noobcoder = LINE("token,appName="IOSIPAD\t11.2.5\tiPhone X\t11.2.5")
 Channel(noobcoder, "1643727178").getChannelResult().channelAccessToken
 waitOpen = codecs.open("khie/wait.json","r","utf-8")
 settingsOpen = codecs.open("khie/temp.json","r","utf-8")
